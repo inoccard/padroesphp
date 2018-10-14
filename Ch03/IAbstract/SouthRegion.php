@@ -6,7 +6,7 @@ class southRegion extends IAbstract
     # Deve retornar um valor decimal 
     protected function giveCost()
     {
-        $novoValor = 4;
+        $novoValor = 3;
         $this->valueNow = 210.54 / $novoValor;
         return $this->valueNow;
     }
