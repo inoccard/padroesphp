@@ -3,7 +3,7 @@ include_once('IAbstract.php');
 
 class southRegion extends IAbstract
 {
-    # Deve retornar um valor decimal 
+    // Deve retornar um valor decimal 
     protected function giveCost()
     {
         $novoValor = 4;
