@@ -6,7 +6,7 @@ class southRegion extends IAbstract
     # Deve retornar um valor decimal 
     protected function giveCost()
     {
-        $novoValor = 3;
+        $novoValor = 4;
         $this->valueNow = 210.54 / $novoValor;
         return $this->valueNow;
     }
@@ -16,5 +16,4 @@ class southRegion extends IAbstract
         return "Luanda minha CIDADE";
     }
 }
-
 ?>
